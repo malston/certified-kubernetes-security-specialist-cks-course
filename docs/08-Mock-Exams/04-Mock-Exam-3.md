@@ -1,6 +1,6 @@
 # Mock Exam 3
 
-  - Take me to the [Mock Exam 3](https://kodekloud.com/topic/mock-exam-3-4/)
+- Take me to the [Mock Exam 3](https://kodekloud.com/topic/mock-exam-3-4/)
 
 Solutions for lab - Mock Exam 3:
 

@@ -1,6 +1,6 @@
 # Mock Exam 1
 
-  - Take me to the [Mock Exam 1](https://kodekloud.com/topic/mock-exam-1-6/)
+- Take me to the [Mock Exam 1](https://kodekloud.com/topic/mock-exam-1-6/)
 
 Solutions for lab - Mock Exam 1:
 
@@ -9,9 +9,9 @@ Solutions for lab - Mock Exam 1:
 
   ```
 
-  AppArmor Profile: First load the AppArmor module to the Kernel   
-  Run on Node01    
-  $ apparmor_parser -q /etc/apparmor.d/frontend  
+  AppArmor Profile: First load the AppArmor module to the Kernel
+  Run on Node01
+  $ apparmor_parser -q /etc/apparmor.d/frontend
   Service Account: The pod should use the service account called 'frontend-default' as it has the least   privileges of all the service accounts in the 'omni' namespace (excluding default)
   The other service accounts, 'fe' and 'frontend' have additional permissions (check the roles and rolebindings associated with these accounts)
   Use the below YAML File to re-create the pod.
@@ -94,7 +94,7 @@ Solutions for lab - Mock Exam 1:
 
   Scan each image using 'trivy image scan'. Example:
   $ trivy image --severity HIGH,CRITICAL kodekloud/webapp-delayed-start
-  
+
   If the image has HIGH or CRITICAL vulnerabilities, delete the associated pod.
 
   For example, if 'kodekloud/webapp-delayed-start', 'httpd' and 'nginx:1.16' have these vulnerabilities:
@@ -210,7 +210,7 @@ Solutions for lab - Mock Exam 1:
    <details>
 
    ```
-   # Create the below admission-configuration inside /root/CKS/ImagePolicy directory in the controlplane  
+   # Create the below admission-configuration inside /root/CKS/ImagePolicy directory in the controlplane
 
    # use this YAML file:
 

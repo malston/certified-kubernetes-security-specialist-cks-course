@@ -1,6 +1,6 @@
 # Mock Exam 2
 
-  - Take me to the [Mock Exam 2](https://kodekloud.com/topic/mock-exam-2-6/)
+- Take me to the [Mock Exam 2](https://kodekloud.com/topic/mock-exam-2-6/)
 
 Solutions for lab - Mock Exam 2:
 
@@ -155,7 +155,7 @@ Solutions for lab - Mock Exam 2:
   # Check if any service is running with the same name
 
   node01 $ systemctl list-units  -t service --state active | grep -i openlitespeed
-  lshttpd.service                    
+  lshttpd.service
   loaded active running OpenLiteSpeed HTTP Server
 
   # This shows that a service called openlitespeed is managed by lshttpd.service which is currently active.
